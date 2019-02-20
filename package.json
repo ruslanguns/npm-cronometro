@@ -6,7 +6,8 @@
     "scripts": {
         "test": "mocha",
         "watch": "tsc -w",
-        "compodoc": "npx compodoc -p ./tsconfig.doc.json"
+        "compodoc": "npx compodoc -p ./tsconfig.doc.json",
+        "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
     },
     "repository": {
         "type": "git",
@@ -20,7 +21,9 @@
     },
     "homepage": "https://github.com/ruslanguns/anartz-npm-2c-cronometro#readme",
     "devDependencies": {
-        "@compodoc/compodoc": "^1.1.8"
+        "@compodoc/compodoc": "^1.1.8",
+        "coveralls": "^3.0.2",
+        "istanbul": "^0.4.5"
     },
     "dependencies": {
         "chai": "^4.2.0",
