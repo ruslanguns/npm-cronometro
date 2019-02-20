@@ -1,3 +1,6 @@
+/**
+ * Constantes de tiempo
+ */
 export declare enum Tiempo {
     SG_MIN = 60,
     SG_HORA = 3600,

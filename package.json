@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "mocha",
         "watch": "tsc -w",
         "compodoc": "npx compodoc -p ./tsconfig.doc.json"
     },
@@ -23,6 +23,8 @@
         "@compodoc/compodoc": "^1.1.8"
     },
     "dependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^6.0.0",
         "rxjs": "^6.4.0"
     }
 }

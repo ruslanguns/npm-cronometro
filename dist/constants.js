@@ -1,5 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Constantes de tiempo
+ */
 var Tiempo;
 (function (Tiempo) {
     Tiempo[Tiempo["SG_MIN"] = 60] = "SG_MIN";

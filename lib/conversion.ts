@@ -29,7 +29,7 @@ function adaptarAlReloj( horas: number, minutos: number, sg: number ) {
   const m = darNumeroFormatoCorrecto(minutos);
   const s = darNumeroFormatoCorrecto(sg);
 
-  return `${ h }: ${ m }:${ s}`;
+  return `${ h }:${ m }:${ s }`;
 }
 
 function darNumeroFormatoCorrecto( n: number ) {

@@ -8,6 +8,9 @@ class Contador {
         this.valorLimite = -1;
         this.valorLimite = limite;
     }
+    /**
+     * Cuenta de manera ascendente
+     */
     start() {
         return interval_1.interval(1000).pipe(map_1.map((sg) => {
             return conversion_1.convertirSgAFormatoReloj(sg, 1, this.valorLimite);
