@@ -1,5 +1,7 @@
 # Cronometro y Temporizador Js
 
+[![Build Status](https://travis-ci.org/ruslanguns/anartz-npm-2c-cronometro.svg?branch=master)](https://travis-ci.org/ruslanguns/anartz-npm-2c-cronometro)
+
 Una libreria hecha en node con typescript básica que cuenta y descuenta la cantidad de segundos que se envía.
 
 ## Instalación
