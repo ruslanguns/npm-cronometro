@@ -1,0 +1,28 @@
+{
+    "name": "proj-2c-cronometro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc -w",
+        "compodoc": "npx compodoc -p ./tsconfig.doc.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruslanguns/anartz-npm-2c-cronometro.git"
+    },
+    "keywords": [],
+    "author": "Ruslan Gonzalez <ruslanguns@gmail.com> (http://rusgunx.tk/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ruslanguns/anartz-npm-2c-cronometro/issues"
+    },
+    "homepage": "https://github.com/ruslanguns/anartz-npm-2c-cronometro#readme",
+    "devDependencies": {
+        "@compodoc/compodoc": "^1.1.8"
+    },
+    "dependencies": {
+        "rxjs": "^6.4.0"
+    }
+}
