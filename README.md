@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/ruslanguns/anartz-npm-2c-cronometro.svg?branch=master)](https://travis-ci.org/ruslanguns/anartz-npm-2c-cronometro)
 [![npm version](https://badge.fury.io/js/proj-2c-cronometro.svg)](https://badge.fury.io/js/proj-2c-cronometro)
 [![Documentation](https://raw.githubusercontent.com/ruslanguns/anartz-npm-2c-cronometro/master/documentation/images/coverage-badge-documentation.svg?sanitize=true)](https://github.com/ruslanguns/anartz-npm-2c-cronometro/tree/master/documentation)
+[![Coverage Status](https://coveralls.io/repos/github/ruslanguns/anartz-npm-2c-cronometro/badge.svg?branch=master)](https://coveralls.io/github/ruslanguns/anartz-npm-2c-cronometro?branch=master)
 
 Una libreria hecha en node con typescript básica que cuenta y descuenta la cantidad de segundos que se envía.
 
