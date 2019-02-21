@@ -6,8 +6,11 @@
     "scripts": {
         "test": "mocha",
         "watch": "tsc -w",
+        "compodoc-debug": "npx compodoc -p ./tsconfig.doc.json -w -o -s",
         "compodoc": "npx compodoc -p ./tsconfig.doc.json",
-        "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
+        "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec",
+        "firebase-deploy": "firebase deploy",
+        "publish-doc": "npm run compodoc && npm run firebase-deploy"
     },
     "repository": {
         "type": "git",
