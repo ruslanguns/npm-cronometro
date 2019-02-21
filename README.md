@@ -4,6 +4,8 @@
 [![npm version](https://badge.fury.io/js/proj-2c-cronometro.svg)](https://badge.fury.io/js/proj-2c-cronometro)
 [![Documentation](https://raw.githubusercontent.com/ruslanguns/anartz-npm-2c-cronometro/master/documentation/images/coverage-badge-documentation.svg?sanitize=true)](https://github.com/ruslanguns/anartz-npm-2c-cronometro/tree/master/documentation)
 [![Coverage Status](https://coveralls.io/repos/github/ruslanguns/anartz-npm-2c-cronometro/badge.svg?branch=master)](https://coveralls.io/github/ruslanguns/anartz-npm-2c-cronometro?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27ff60f583044b8298cd53b924c6805d)](https://www.codacy.com/app/ruslanguns/anartz-npm-2c-cronometro?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ruslanguns/anartz-npm-2c-cronometro&amp;utm_campaign=Badge_Grade)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Una libreria hecha en node con typescript básica que cuenta y descuenta la cantidad de segundos que se envía.
 
